@@ -1,0 +1,162 @@
+/* Basic styles for a LinkedIn banner */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.banner {
+    width: 100%;
+    height: 62vh;
+    background: linear-gradient(135deg, #0077b5, #005582);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profile {
+    width: 21em;
+    height: 21em;
+    border-radius: 50%;
+    border: 5px solid white;
+    position: absolute;
+    top: 23vh;
+    left: 4vw;
+    display: flex;
+}
+
+.profile img {
+    clip-path: circle(50%);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content {
+    width: 60vw;
+    height: 64vh;
+    position: absolute;
+    top: 0vh;
+    right: 0vw;
+}
+
+.skillsicons {
+    display: flex;
+    width: 31vw;
+    flex-flow: wrap;
+    position: absolute;
+    top: 19.3em;
+    justify-content: center;
+    left: -8em;
+    column-gap: 8px;
+    row-gap: 12px;
+}
+
+.skillsicons img {
+    width: 2em;
+    max-width: 2em;
+    height: 2em;
+    max-height: 2em;
+}
+
+.nameing {
+    display: flex;
+    position: relative;
+    top: 8.5em;
+    left: 2em;
+    font-weight: bold;
+    font-size: 22px;
+    font-family: emoji;
+    color: white;
+    width: max-content;
+    text-shadow: 1px 0 #00000000;
+}
+
+.prof {
+    display: flex;
+    position: relative;
+    top: 15.2em;
+    left: -1.1em;
+    font-weight: bold;
+    font-size: 13px;
+    font-family: unset;
+    width: max-content;
+    text-shadow: 1px 0 #00000000;
+    padding: 8px 60px;
+    border-radius: 50px;
+    color: white;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    box-shadow:
+        rgba(0, 0, 0, 0.19) 0px 10px 20px,
+        rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.contactdts {
+    display: flex;
+    position: relative;
+    top: 13.3em;
+    left: -4.5em;
+    width: max-content;
+    font-family: calbri;
+    column-gap: 10px;
+    font-weight: 600;
+    color: white;
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+}
+
+.hdbjh {
+    display: flex;
+    position: absolute;
+    width: 37vw;
+    font-weight: bold;
+    color: white;
+    font-size: 10px;
+    right: 0em;
+    top: 0.5em;
+    font-family: system-ui;
+    z-index: 1;
+}
+
+.backdbi {
+    display: flex;
+    position: absolute;
+    top: -2em;
+    left: 19em;
+    width: 41em !important;
+    height: 48em !important;
+    max-width: 41em !important;
+    max-height: 48em !important;
+}
+
+.penpng {
+    transform: rotate(90deg);
+    height: 4em !important;
+    width: 16em !important;
+    max-width: 16em !important;
+    max-height: 4em !important;
+    position: absolute;
+    top: 9em;
+    left: 10em;
+}
+
+.watimg {
+    display: flex;
+    position: absolute;
+    top: 5.5em;
+    left: 10em;
+    width: 6vw;
+    transform: rotate(0deg);
+    box-shadow:
+        rgba(0, 0, 0, 0.25) 0px 14px 28px,
+        rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    background: #292929;
+}
